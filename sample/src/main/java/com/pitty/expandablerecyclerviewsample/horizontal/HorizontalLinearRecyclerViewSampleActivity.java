@@ -11,8 +11,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.pitty.expandablerecyclerview.BaseExpandableListAdapter.OnGroupCollapseListener;
-import com.pitty.expandablerecyclerview.BaseExpandableListAdapter.OnGroupExpandListener;
+import com.pitty.expandablerecyclerview.BaseExpandableRecyclerViewAdapter.OnGroupCollapseListener;
+import com.pitty.expandablerecyclerview.BaseExpandableRecyclerViewAdapter.OnGroupExpandListener;
 import com.pitty.expandablerecyclerviewsample.R;
 
 import java.util.ArrayList;

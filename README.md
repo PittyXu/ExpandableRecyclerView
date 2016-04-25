@@ -4,10 +4,10 @@ A custom RecyclerView which allows for an expandable view to be attached to each
 
 # Usage
 
-Only Need extends <b>BaseExpandableListAdapter</b> like Android's Expandable List View.
+Only Need extends <b>BaseExpandableRecyclerViewAdapter</b> like Android's Expandable List View.
 
 
-    public class ExpandableAdapter extends BaseExpandableListAdapter {
+    public class ExpandableAdapter extends BaseExpandableRecyclerViewAdapter {
       @Override
       public int getGroupCount() {
         return 0;

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public abstract class BaseExpandableListAdapter<GVH extends ViewHolder, CVH extends ViewHolder>
+public abstract class BaseExpandableRecyclerViewAdapter<GVH extends ViewHolder, CVH extends ViewHolder>
         extends RecyclerView.Adapter<ViewHolder>
         implements ExpandableListAdapter<GVH, CVH>, HeterogeneousExpandableList {
 

@@ -10,14 +10,14 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.pitty.expandablerecyclerview.BaseExpandableListAdapter;
+import com.pitty.expandablerecyclerview.BaseExpandableRecyclerViewAdapter;
 import com.pitty.expandablerecyclerviewsample.R;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class ExpandableAdapter extends BaseExpandableListAdapter {
+public class ExpandableAdapter extends BaseExpandableRecyclerViewAdapter {
     private LayoutInflater mInflater;
 
     List<String> mGroups = new ArrayList<>();

@@ -10,13 +10,13 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.pitty.expandablerecyclerview.BaseExpandableListAdapter;
+import com.pitty.expandablerecyclerview.BaseExpandableRecyclerViewAdapter;
 import com.pitty.expandablerecyclerviewsample.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class HorizontalExpandableAdapter extends BaseExpandableListAdapter {
+public class HorizontalExpandableAdapter extends BaseExpandableRecyclerViewAdapter {
     private LayoutInflater mInflater;
     private List<String> mGroups = new ArrayList<>();
     private List<List<String>> mChildren = new ArrayList<>();
